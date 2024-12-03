@@ -108,6 +108,78 @@ a:hover{
     color: #FA4A0C;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+
+.main-button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.modal {position: fixed; 
+    
+    
+    z-index: 1000;
+    ;
+    display: none; 
+    
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); left: 0
+}
+
+.modal-content {
+    font-family: Montserrat;
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 3px solid #FA4A0C;
+    width: 450px;
+    border-radius: 15px;
+
+}
+
+.close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    float: right;
+    margin-left: 15px;
+}
+
+.modal-text {
+    margin: 20px 0;
+}
+
+.confirm-button {
+    cursor: pointer;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    height: 68px;
+    text-align: left;
+    border: 1px solid white;
+    padding: 15px 50px;
+    margin: 4px;
+    border-radius: 30px;
+    color: white;
+    background: #FA4A0C;
+    cursor: pointer;
+}
+
+
+
+
 
 .main-div-1{
     background: url(../img/Lider-fon.png) no-repeat;
