@@ -61,3 +61,20 @@ window.addEventListener('click', function(event) {
         modal.style.display = 'none';
     }
 });
+
+
+
+
+// Получаем все элементы с классом icon-item
+const icons = document.querySelectorAll('.icon-item');
+
+// Добавляем обработчик события для каждого элемента
+icons.forEach(icon => {
+    icon.addEventListener('click', function() {
+        this.classList.add('bounce');
+        // Удаляем класс через 0.5 секунды
+        setTimeout(() => {
+          this.classList.remove('bounce');
+        }, 500);
+    });
+});

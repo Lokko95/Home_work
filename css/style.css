@@ -388,4 +388,26 @@ body {
     height: 102px;
 }
 
+.footer-div-2 {
+    text-align: center;
+}
 
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-item {
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.bounce {
+    animation: bounce 0.5s ease-in-out;
+}
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
